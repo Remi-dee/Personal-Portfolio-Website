@@ -1,6 +1,6 @@
 # Portfolio Website
 Portfolio : 
-[Click Me to Go to Portfolio Website](https://remi-dee.github.io/portfolio-website/)
+[Click Me to Go to Portfolio Website](https://remi-dee.github.io/Portfolio-Website/)
 
 
 
