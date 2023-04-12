@@ -67,16 +67,16 @@ header {
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 400;
-  font-size: 1.0rem;
+  font-size: 1rem;
 }
 
 .me__avatar {
-    width: 4rem;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 0 auto 1rem;
-    border: 0.4rem solid var(--color-primary-variant);
+  width: 10rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  border: 0rem transparent var(--color-light);
 }
 
 /* ................MEDIA QUERIES (MEDIUM DEVICES) .........*/
@@ -94,10 +94,18 @@ header {
     height: 100vh;
   }
 
- 
   .scroll__down {
     display: none;
   }
 
-  
+  .header__socials {
+    flex-direction: row;
+    justify-content: center;
+    position: unset;
+    padding-top: 0.2rem;
+  }
+
+  .header__socials::after {
+    display: none;
+  }
 }
