@@ -46,6 +46,8 @@ border-color: var(--color-primary-variant);
 
 .contact__option a:hover {
     background: var(--color-bg);
+    color: var(--color-primary);
+    border-color: transparent;
 }
 
 /*....................FORM...................*/

@@ -1,7 +1,7 @@
 
 
 footer{
-    background: var(--color-primary);
+    background: whitesmoke;
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -22,6 +22,11 @@ footer a {
     display: inline-block;
 }
 
+.footer__logo:hover{
+color: black;
+}
+
+
 .permalinks {
     display: flex;
     flex-wrap: wrap;
@@ -29,6 +34,12 @@ footer a {
     gap: 2rem;
     margin: 0 auto 3rem;
 }
+
+.permalinks a:hover{
+text-decoration: underline;
+color: black;
+}
+
 
 .footer__socials {
     display: flex;

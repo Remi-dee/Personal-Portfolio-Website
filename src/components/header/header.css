@@ -13,7 +13,7 @@ header {
 /*.......................CTA............*/
 
 .cta {
-  margin-top: 2.5rem;
+  margin-top: 1rem;
   display: flex;
   gap: 1.2rem;
   justify-content: center;
@@ -40,7 +40,7 @@ header {
 
 /*.......................ME............*/
 
-.me {
+/*.me {
   background: var(--color-primary);
   width: 22rem;
   height: 25rem;
@@ -51,7 +51,7 @@ header {
   background: linear-gradient(var(--color-primary), transparent);
   overflow: hidden;
   padding: 2.3rem 1.5rem 1.5rem;
-}
+}*/
 
 /*.me img{
     border-radius: 12rem 12rem 0 0;
@@ -83,7 +83,7 @@ header {
 
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 85vh ;
   }
 }
 
