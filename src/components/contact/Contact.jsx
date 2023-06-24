@@ -44,7 +44,7 @@ const Contact = () => {
             <h4>Linkedin</h4>
             <h5>Daniel</h5>
             <a
-              href="https://www.linkedin.com/in/remi-daniel247/message/"
+              href={`${import.meta.env.VITE_LINKEDIN}/message/`}
               target="_blank"
             >
               Send a Message
