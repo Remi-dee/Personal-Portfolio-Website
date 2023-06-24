@@ -32,13 +32,13 @@ const footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://twitter.com/_remidee_" target="_blank">
+        <a href={import.meta.env.VITE_TWITTER} target="_blank">
           <IoLogoTwitter />
         </a>
-        <a href="https://linkedin.com/in/remi-daniel247" target="_blank">
+        <a href={import.meta.env.VITE_LINKEDIN} target="_blank">
           <BsLinkedin />
         </a>
-        <a href="https://instagram.com/_remidee" target="_blank">
+        <a href={import.meta.env.VITE_INSTAGRAM} target="_blank">
           <FiInstagram />
         </a>
       </div>

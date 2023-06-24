@@ -34,7 +34,7 @@ const Contact = () => {
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>oluwaremidaniel36@gmail.com</h5>
-            <a href="mailto:oluwaremidaniel36@gmail.com" target="_blank">
+            <a href={`mailto:${import.meta.env.VITE_GMAIL}`} target="_blank">
               Send a Message
             </a>
           </article>
@@ -55,10 +55,7 @@ const Contact = () => {
             <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
             <h5>+2349035391575</h5>
-            <a
-              href="https://api.whatsapp.com/send?phone=%2B2348157625589&text&app_absent=0"
-              target="_blank"
-            >
+            <a href={import.meta.env.VITE_WHATSAPP} target="_blank">
               Send a Message
             </a>
           </article>
