@@ -16,18 +16,18 @@ const footer = () => {
           <a href="#">Home</a>
         </li>
         <li>
-          <a href="#About">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#Experience">Experience</a>
+          <a href="#experience">Experience</a>
         </li>
         {/*<li><a href="#Services">Services</a></li>*/}
         <li>
-          <a href="#Portfolio">Portfolio</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
         {/*<li><a href="#Testimonials">Testimonials</a></li>*/}
         <li>
-          <a href="#Contact">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
 

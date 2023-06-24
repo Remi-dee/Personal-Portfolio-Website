@@ -19,7 +19,6 @@ const header = () => {
         <HeaderSocials />
         <CTA />
 
-       
         <a href="#contact" className="scroll__down">
           Contact Me
         </a>
