@@ -42,7 +42,7 @@ const Contact = () => {
           <article className="contact__option">
             <BsLinkedin className="contact__option-icon" />
             <h4>Linkedin</h4>
-            <h5>Daniel</h5>
+            <h5>Remi Daniel</h5>
             <a
               href={`${import.meta.env.VITE_LINKEDIN}/message/`}
               target="_blank"
