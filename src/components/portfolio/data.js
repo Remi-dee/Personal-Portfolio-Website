@@ -1,6 +1,6 @@
 import IMG1 from "../../Asset/drag.gif";
 import IMG2 from "../../Asset/shopzone.gif";
-import IMG3 from "../../Asset/portfolio3.jpg";
+import IMG3 from "../../Asset/HTML Screen-8.png";
 import IMG4 from "../../Asset/portfolio4.jpg";
 import IMG5 from "../../Asset/Techreads.gif";
 import IMG6 from "../../Asset/portfolio6.jpg";
