@@ -17,7 +17,7 @@
 
 .portfolio__container:hover {
   border-color: rgb(84, 83, 83);
-  background: t;
+  background: transparent;
 }
 
 .portfolio__category {
