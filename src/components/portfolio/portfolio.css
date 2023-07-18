@@ -94,7 +94,7 @@ img {
 
 @media screen and (max-width: 600px) {
   .portfolio__item-image {
-    height: 50rem;
+    height: 15rem;
   
   }
 }
