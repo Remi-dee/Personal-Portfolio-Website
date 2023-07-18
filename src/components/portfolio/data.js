@@ -38,7 +38,7 @@ const data = [
 
   {
     id: 3,
-    category: "Open Source & Production & Team Projects",
+    category: "Open Source & Team Projects",
     image: IMG4,
     title:
       "ThoughtFlow is a privacy-friendly web app that allow for journaling thoughts/perspectives about anything in an easy to use interface.",
@@ -48,7 +48,7 @@ const data = [
 
   {
     id: 4,
-    category: "Open Source & Production & Team Projects",
+    category: "Open Source & Team Projects",
     image: IMG5,
     title:
       "An E-book library to explore interesting and resourceful tech related contents",
