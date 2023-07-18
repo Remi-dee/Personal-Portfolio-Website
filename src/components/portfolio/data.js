@@ -11,10 +11,10 @@ const data = [
     category: "Solo Project",
     image: IMG1,
     title: "Trello-lite: A task setting app with AI integration",
-    github: "https://github.com/Remi-dee/Shop-zone",
+    github: "https://github.com/Remi-dee/trellolite",
     demo: "https://trello-lite-remi.vercel.app/",
   },
- 
+
   {
     id: 1,
     category: "Solo Project",
@@ -23,8 +23,6 @@ const data = [
     github: "https://github.com/Remi-dee/Shop-zone",
     demo: "https://shop-zone-six.vercel.app/",
   },
-
- 
 
   {
     id: 2,
@@ -36,7 +34,6 @@ const data = [
     demo: "https://dribbble.com/shots/20111348-Orion-UI-kit-for-Figma",
   },
 
- 
   {
     id: 3,
     category: "Open Source & Team Projects",
@@ -46,7 +43,7 @@ const data = [
     github: "https://github.com/adetoye-dev/books-library-app",
     demo: "https://tech-reads.vercel.app/",
   },
- 
+
   // {
   //   id: 4,
   //   category: "Open Source & Team Projects",
@@ -56,8 +53,6 @@ const data = [
   //   github: "https://github.com/chingu-voyages/v44-tier3-team-42/tree/dev",
   //   demo: "https://thoughtflow.vercel.app/",
   // },
-
-  
 
   // {
   //   id: 5,
