@@ -39,7 +39,7 @@ const data = [
     category: "Open Source & Team Projects",
     image: IMG5,
     title:
-      "An E-book library app to explore interesting and resourceful tech related contents",
+      "Tech Reads An E-book library app to explore interesting and resourceful tech related contents",
     github: "https://github.com/adetoye-dev/books-library-app",
     demo: "https://tech-reads.vercel.app/",
   },
