@@ -7,6 +7,15 @@ import IMG6 from "../../Asset/portfolio6.jpg";
 
 const data = [
   {
+    id: 1,
+    category: "Solo Project",
+    image: IMG2,
+    title: "Trello-lite: A task setting app with AI integration",
+    github: "https://github.com/Remi-dee/Shop-zone",
+    demo: "https://shop-zone-six.vercel.app/",
+  },
+ 
+  {
     id: 0,
     category: "Solo Project",
     image: IMG1,
@@ -15,14 +24,7 @@ const data = [
     demo: "https://shop-zone-six.vercel.app/",
   },
 
-  {
-    id: 1,
-    category: "Solo Project",
-    image: IMG2,
-    title: "Trello-lite: A task setting app with AI integration",
-    github: "https://github.com/Remi-dee/Shop-zone",
-    demo: "https://shop-zone-six.vercel.app/",
-  },
+ 
 
   {
     id: 2,
