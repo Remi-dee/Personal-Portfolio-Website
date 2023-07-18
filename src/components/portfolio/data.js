@@ -9,7 +9,7 @@ const data = [
   {
     id: 0,
     category: "Solo Project",
-    image: IMG2,
+    image: IMG1,
     title: "Trello-lite: A task setting app with AI integration",
     github: "https://github.com/Remi-dee/Shop-zone",
     demo: "https://shop-zone-six.vercel.app/",
@@ -18,7 +18,7 @@ const data = [
   {
     id: 1,
     category: "Solo Project",
-    image: IMG1,
+    image: IMG2,
     title: "Shopzone an ecommerces app that behaves like Amazone",
     github: "https://github.com/Remi-dee/Shop-zone",
     demo: "https://shop-zone-six.vercel.app/",
