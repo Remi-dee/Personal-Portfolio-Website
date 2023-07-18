@@ -56,16 +56,16 @@ const data = [
     demo: "https://dribbble.com/shots/20111348-Orion-UI-kit-for-Figma",
   },
 
-  {
-    id: 5,
-    category: "Archive Project",
-    image:
-      "https://res.cloudinary.com/dvwiiyev8/image/upload/v1681572853/Portfolio1.jpg",
-    title: "Random Quote Generator",
-    github:
-      "https://github.com/Remi-dee/RandomQuoteGenerator/blob/main/README.md",
-    demo: "https://remi-dee.github.io/RandomQuoteGenerator/",
-  },
+  // {
+  //   id: 5,
+  //   category: "Archive Project",
+  //   image:
+  //     "https://res.cloudinary.com/dvwiiyev8/image/upload/v1681572853/Portfolio1.jpg",
+  //   title: "Random Quote Generator",
+  //   github:
+  //     "https://github.com/Remi-dee/RandomQuoteGenerator/blob/main/README.md",
+  //   demo: "https://remi-dee.github.io/RandomQuoteGenerator/",
+  // },
 ];
 
 export { data };
