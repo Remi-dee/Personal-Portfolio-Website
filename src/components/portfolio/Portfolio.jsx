@@ -34,11 +34,15 @@ const portfolio = () => {
                     <a href={github} className="btn btn-dark" target="_blank">
                       Github Link
                     </a>
-                    demo && ({" "}
-                    <a href={demo} className="btn btn-primary" target="_blank">
-                      Live Demo
-                    </a>
-                    )
+                    {demo && (
+                      <a
+                        href={demo}
+                        className="btn btn-primary"
+                        target="_blank"
+                      >
+                        Live Demo
+                      </a>
+                    )}
                   </div>
                 </article>
               );
