@@ -33,7 +33,7 @@
 }
 
 .portfolio__item-image > img {
-  height: con;
+  height: max-content;
 }
 
 .portfolio__item-image {
