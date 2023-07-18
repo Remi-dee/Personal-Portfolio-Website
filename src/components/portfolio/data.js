@@ -28,7 +28,7 @@ const data = [
 
   {
     id: 2,
-    category: "Team Project",
+    category: "Open Source & Production & Team Projects",
     image: IMG3,
     title:
       "P2PCoder App: A platform where users can code an collaborate in real time",
@@ -38,7 +38,7 @@ const data = [
 
   {
     id: 3,
-    category: "Team Project",
+    category: "Open Source & Production & Team Projects",
     image: IMG4,
     title:
       "ThoughtFlow is a privacy-friendly web app that allow for journaling thoughts/perspectives about anything in an easy to use interface.",
