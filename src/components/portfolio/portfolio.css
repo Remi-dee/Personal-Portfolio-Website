@@ -32,6 +32,10 @@
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
+img {
+  
+}
+
 .portfolio__item-image {
   height: 30rem;
   overflow: hidden;
