@@ -53,7 +53,7 @@ const data = [
     title:
       "An E-book library to explore interesting and resourceful tech related contents",
     github: "https://github.com/adetoye-dev/books-library-app",
-    demo: "https://dribbble.com/shots/20111348-Orion-UI-kit-for-Figma",
+    demo: "",
   },
 
   // {
