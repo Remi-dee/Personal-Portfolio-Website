@@ -29,7 +29,7 @@ const data = [
     category: "Open Source & Team Projects",
     image: IMG3,
     title:
-      "P2PCoder App: A platform where users can code an collaborate in real time",
+      "P2PCoder App: A platform where users can code and collaborate in real time",
     github: "https://github.com/annonymousauthority/P2PCoder",
     demo: "",
   },
