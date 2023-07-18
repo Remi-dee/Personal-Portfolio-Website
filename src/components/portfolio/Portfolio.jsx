@@ -76,7 +76,7 @@ const portfolio = () => {
         </Carousel>
       </div>
 
-      <div className="container portfolio__container">
+      {/* <div className="container portfolio__container">
         <Carousel
            autoPlay
            infiniteLoop
@@ -105,7 +105,7 @@ const portfolio = () => {
             );
           })}
         </Carousel>
-      </div>
+      </div> */}
     </section>
   );
 };
