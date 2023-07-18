@@ -41,7 +41,7 @@ const data = [
     title:
       "An E-book library to explore interesting and resourceful tech related contents",
     github: "https://github.com/adetoye-dev/books-library-app",
-    demo: "",
+    demo: "https://tech-reads.vercel.app/",
   },
 
   // {
