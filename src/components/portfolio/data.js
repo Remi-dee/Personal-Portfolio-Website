@@ -10,7 +10,7 @@ const data = [
     id: 0,
     category: "Solo Project",
     image: IMG1,
-    title: "Trello-lite: light weight trello clone. app with AI integration",
+    title: "Trello-lite: light weight trello clone, where user can add task app with AI integration",
     github: "https://github.com/Remi-dee/trellolite",
     demo: "https://trello-lite-remi.vercel.app/",
   },
