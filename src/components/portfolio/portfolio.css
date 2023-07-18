@@ -33,7 +33,7 @@
 }
 
 img {
-  height: 10rem;
+  height: fit-content;
 }
 
 .portfolio__item-image {
