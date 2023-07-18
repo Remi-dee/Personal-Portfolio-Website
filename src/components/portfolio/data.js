@@ -12,7 +12,7 @@ const data = [
     image: IMG1,
     title: "Trello-lite: A task setting app with AI integration",
     github: "https://github.com/Remi-dee/Shop-zone",
-    demo: "https://shop-zone-six.vercel.app/",
+    demo: "https://trello-lite-remi.vercel.app/",
   },
  
   {
