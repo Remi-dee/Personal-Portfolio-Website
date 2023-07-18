@@ -47,15 +47,15 @@ const data = [
     demo: "https://tech-reads.vercel.app/",
   },
  
-  {
-    id: 4,
-    category: "Open Source & Team Projects",
-    image: IMG4,
-    title:
-      "ThoughtFlow is a privacy-friendly web app that allow for journaling thoughts/perspectives about anything in an easy to use interface.",
-    github: "https://github.com/chingu-voyages/v44-tier3-team-42/tree/dev",
-    demo: "https://thoughtflow.vercel.app/",
-  },
+  // {
+  //   id: 4,
+  //   category: "Open Source & Team Projects",
+  //   image: IMG4,
+  //   title:
+  //     "ThoughtFlow is a privacy-friendly web app that allow for journaling thoughts/perspectives about anything in an easy to use interface.",
+  //   github: "https://github.com/chingu-voyages/v44-tier3-team-42/tree/dev",
+  //   demo: "https://thoughtflow.vercel.app/",
+  // },
 
   
 
