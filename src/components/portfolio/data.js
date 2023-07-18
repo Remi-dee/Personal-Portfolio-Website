@@ -31,7 +31,7 @@ const data = [
     title:
       "P2PCoder App: A platform where users can code an collaborate in real time",
     github: "https://github.com/annonymousauthority/P2PCoder",
-    demo: "https://dribbble.com/shots/20111348-Orion-UI-kit-for-Figma",
+    demo: "",
   },
 
   {
