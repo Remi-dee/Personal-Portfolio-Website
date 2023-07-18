@@ -2,7 +2,7 @@ import IMG1 from "../../Asset/drag.gif";
 import IMG2 from "../../Asset/portfolio2.jpg";
 import IMG3 from "../../Asset/portfolio3.jpg";
 import IMG4 from "../../Asset/portfolio4.jpg";
-import IMG5 from "../../Asset/portfolio5.jpg";
+import IMG5 from "../../Asset/";
 import IMG6 from "../../Asset/portfolio6.jpg";
 
 const data = [
