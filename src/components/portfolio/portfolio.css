@@ -86,7 +86,9 @@ img {
 /* ................MEDIA QUERIES (MEDIUM DEVICES) .........*/
 
 @media screen and (max-width: 1024px) {
-  .portfolio__container {
+  .portfolio__item-image {
+    height: 15rem;
+  
   }
 }
 
