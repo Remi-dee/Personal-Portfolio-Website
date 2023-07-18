@@ -42,7 +42,7 @@ body{
     background-image: linear-gradient(to right, #434343 0%, black 100%);
     color : var(--color-white);
     line-height: 1.7;
-    background-image: url(./Asset/bg.png) ;
+   
     }
 
 /* .................... GENERAL STYLE....................*/
