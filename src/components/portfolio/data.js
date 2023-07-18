@@ -37,10 +37,18 @@ const data = [
   },
 
  
-  
- 
   {
     id: 3,
+    category: "Open Source & Team Projects",
+    image: IMG5,
+    title:
+      "An E-book library to explore interesting and resourceful tech related contents",
+    github: "https://github.com/adetoye-dev/books-library-app",
+    demo: "https://tech-reads.vercel.app/",
+  },
+ 
+  {
+    id: 4,
     category: "Open Source & Team Projects",
     image: IMG4,
     title:
