@@ -1,5 +1,5 @@
 import IMG1 from "../../Asset/drag.gif";
-import IMG2 from "../../Asset/portfolio2.jpg";
+import IMG2 from "../../Asset/";
 import IMG3 from "../../Asset/portfolio3.jpg";
 import IMG4 from "../../Asset/portfolio4.jpg";
 import IMG5 from "../../Asset/Techreads.gif";
