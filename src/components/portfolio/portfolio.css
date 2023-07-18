@@ -17,7 +17,7 @@
 
 .portfolio__container:hover {
   border-color: var(--color-primary-variant);
-  background: transparent;
+ 
 }
 
 .portfolio__category {
