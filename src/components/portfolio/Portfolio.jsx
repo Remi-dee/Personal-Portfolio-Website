@@ -5,9 +5,6 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { data } from "./data";
 
-
-
-
 const portfolio = () => {
   return (
     <section id="portfolio">
@@ -23,25 +20,29 @@ const portfolio = () => {
           showThumbs={false}
           interval={5000}
         >
-          {data.slice(2, 5).map(({ id, category, image, title, github, demo }) => {
-            return (
-              <article key={id} className="portfolio__item">
-                <p className="portfolio__category">{category}</p>
-                <div className="portfolio__item-image">
-                  <img src={image} alt="Image" />
-                </div>
-                <h3>{title}</h3>
-                <div className="portfolio__item-cta">
-                  <a href={github} className="btn btn-dark" target="_blank">
-                    Github Link
-                  </a>
-                  demo &&    <a href={demo} className="btn btn-primary" target="_blank">
-                    Live Demo
-                  </a>
-                </div>
-              </article>
-            );
-          })}
+          {data
+            .slice(2, 5)
+            .map(({ id, category, image, title, github, demo }) => {
+              return (
+                <article key={id} className="portfolio__item">
+                  <p className="portfolio__category">{category}</p>
+                  <div className="portfolio__item-image">
+                    <img src={image} alt="Image" />
+                  </div>
+                  <h3>{title}</h3>
+                  <div className="portfolio__item-cta">
+                    <a href={github} className="btn btn-dark" target="_blank">
+                      Github Link
+                    </a>
+                    demo && ({" "}
+                    <a href={demo} className="btn btn-primary" target="_blank">
+                      Live Demo
+                    </a>
+                    )
+                  </div>
+                </article>
+              );
+            })}
         </Carousel>
       </div>
 
@@ -54,25 +55,27 @@ const portfolio = () => {
           showThumbs={false}
           interval={5000}
         >
-          {data.slice(0, 2).map(({ id, category, image, title, github, demo }) => {
-            return (
-              <article key={id} className="portfolio__item">
-                <p className="portfolio__category">{category}</p>
-                <div className="portfolio__item-image">
-                  <img src={image} alt="Image" />
-                </div>
-                <h3>{title}</h3>
-                <div className="portfolio__item-cta">
-                  <a href={github} className="btn btn-dark" target="_blank">
-                    Github Link
-                  </a>
-                  <a href={demo} className="btn btn-primary" target="_blank">
-                    Live Demo
-                  </a>
-                </div>
-              </article>
-            );
-          })}
+          {data
+            .slice(0, 2)
+            .map(({ id, category, image, title, github, demo }) => {
+              return (
+                <article key={id} className="portfolio__item">
+                  <p className="portfolio__category">{category}</p>
+                  <div className="portfolio__item-image">
+                    <img src={image} alt="Image" />
+                  </div>
+                  <h3>{title}</h3>
+                  <div className="portfolio__item-cta">
+                    <a href={github} className="btn btn-dark" target="_blank">
+                      Github Link
+                    </a>
+                    <a href={demo} className="btn btn-primary" target="_blank">
+                      Live Demo
+                    </a>
+                  </div>
+                </article>
+              );
+            })}
         </Carousel>
       </div>
 
