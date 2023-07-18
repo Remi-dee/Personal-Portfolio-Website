@@ -16,7 +16,7 @@
 }
 
 .portfolio__container:hover {
-  border-color: var(--color-primary-variant);
+  border-color: whitesmoke;
   
 }
 
