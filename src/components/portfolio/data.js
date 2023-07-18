@@ -36,6 +36,9 @@ const data = [
     demo: "https://dribbble.com/shots/20111348-Orion-UI-kit-for-Figma",
   },
 
+ 
+  
+ 
   {
     id: 3,
     category: "Open Source & Team Projects",
@@ -46,15 +49,7 @@ const data = [
     demo: "https://thoughtflow.vercel.app/",
   },
 
-  {
-    id: 4,
-    category: "Open Source & Team Projects",
-    image: IMG5,
-    title:
-      "An E-book library to explore interesting and resourceful tech related contents",
-    github: "https://github.com/adetoye-dev/books-library-app",
-    demo: "https://tech-reads.vercel.app/",
-  },
+  
 
   // {
   //   id: 5,
