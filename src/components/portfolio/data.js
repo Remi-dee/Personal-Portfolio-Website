@@ -48,7 +48,7 @@ const data = [
 
   {
     id: 4,
-    category: "Team Project",
+    category: "Open Source & Production & Team Projects",
     image: IMG5,
     title:
       "An E-book library to explore interesting and resourceful tech related contents",
