@@ -7,7 +7,7 @@ import IMG6 from "../../Asset/portfolio6.jpg";
 
 const data = [
   {
-    id: 1,
+    id: 0,
     category: "Solo Project",
     image: IMG2,
     title: "Trello-lite: A task setting app with AI integration",
@@ -16,7 +16,7 @@ const data = [
   },
  
   {
-    id: 0,
+    id: 1,
     category: "Solo Project",
     image: IMG1,
     title: "Shopzone an ecommerces app that behaves like Amazone",
