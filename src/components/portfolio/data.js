@@ -27,7 +27,7 @@ const data = [
   {
     id: 2,
     category: "Solo Project",
-    image: IMG2,
+    image: IMG3,
     title: "My Personal Portfolio Website",
     github: "https://github.com/Remi-dee/Personal-Portfolio-Website",
     demo: "https://remidaniel.vercel.app/",
