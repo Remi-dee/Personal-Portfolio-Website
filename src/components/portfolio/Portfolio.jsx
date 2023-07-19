@@ -21,7 +21,7 @@ const portfolio = () => {
           interval={5000}
         >
           {data
-            .slice(2, 5)
+            .slice(3, 5)
             .map(({ id, category, image, title, github, demo }) => {
               return (
                 <article key={id} className="portfolio__item">
