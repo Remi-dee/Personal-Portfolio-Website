@@ -1,7 +1,7 @@
 import IMG1 from "../../Asset/drag.gif";
 import IMG2 from "../../Asset/shopzone.gif";
 import IMG4 from "../../Asset/HTML Screen-8.png";
-import IMG3 from "../../Asset/portfolio.jpg";
+import IMG3 from "../../Asset/portfolio.gif";
 import IMG5 from "../../Asset/Techreads.gif";
 import IMG6 from "../../Asset/portfolio6.jpg";
 
