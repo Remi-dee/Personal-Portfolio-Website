@@ -17,7 +17,6 @@
 
 .portfolio__container:hover {
   border-color: rgb(84, 83, 83);
-  
 }
 
 .portfolio__category {
@@ -88,7 +87,6 @@
 @media screen and (max-width: 1024px) {
   .portfolio__item-image {
     height: 20rem;
-  
   }
 }
 
@@ -97,6 +95,5 @@
 @media screen and (max-width: 600px) {
   .portfolio__item-image {
     height: 15rem;
-  
   }
 }
