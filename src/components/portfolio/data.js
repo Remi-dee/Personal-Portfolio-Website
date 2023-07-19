@@ -20,7 +20,7 @@ const data = [
     category: "Solo Project",
     image: IMG2,
     title:
-      "Shopzone: An ecommerces app that behaves like Amazon where users can get product and succesfully checkout",
+      "Shopzone: An ecommerces app that behaves like Amazon where users can get product and succesfully checkout products",
     github: "https://github.com/Remi-dee/Shop-zone",
     demo: "https://shop-zone-six.vercel.app/",
   },
