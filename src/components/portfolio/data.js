@@ -34,7 +34,7 @@ const data = [
   },
 
   {
-    id: 2,
+    id: 3,
     category: "Open Source & Team Projects",
     image: IMG3,
     title:
@@ -44,7 +44,7 @@ const data = [
   },
 
   {
-    id: 3,
+    id: 4,
     category: "Open Source & Team Projects",
     image: IMG5,
     title:
