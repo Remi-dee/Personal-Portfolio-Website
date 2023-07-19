@@ -2,7 +2,6 @@ import IMG1 from "../../Asset/drag.gif";
 import IMG2 from "../../Asset/shopzone.gif";
 import IMG3 from "../../Asset/portfolio.gif";
 import IMG4 from "../../Asset/HTML Screen-8.png";
-
 import IMG5 from "../../Asset/Techreads.gif";
 
 const data = [
