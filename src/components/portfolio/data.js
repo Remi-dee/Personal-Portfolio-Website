@@ -28,7 +28,7 @@ const data = [
     id: 2,
     category: "Solo Project",
     image: IMG2,
-    title: "My Personal P",
+    title: "My Personal Portfolio Website",
     github: "https://github.com/Remi-dee/Shop-zone",
     demo: "https://shop-zone-six.vercel.app/",
   },
