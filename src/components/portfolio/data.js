@@ -1,16 +1,16 @@
 import IMG1 from "../../Asset/drag.gif";
 import IMG2 from "../../Asset/shopzone.gif";
-import IMG4 from "../../Asset/HTML Screen-8.png";
-
+import IMG3 from "../../Asset/portfolio.gif";
+i
 import IMG5 from "../../Asset/Techreads.gif";
-
 
 const data = [
   {
     id: 0,
     category: "Solo Project",
     image: IMG1,
-    title: "Trello-lite: Alight weight trello clone, where user can add tasks and organize them ",
+    title:
+      "Trello-lite: Alight weight trello clone, where user can add tasks and organize them ",
     github: "https://github.com/Remi-dee/trellolite",
     demo: "https://trello-lite-remi.vercel.app/",
   },
@@ -19,7 +19,8 @@ const data = [
     id: 1,
     category: "Solo Project",
     image: IMG2,
-    title: "Shopzone: An ecommerces app that behaves like Amazon where users can get product and succesfully checkout",
+    title:
+      "Shopzone: An ecommerces app that behaves like Amazon where users can get product and succesfully checkout",
     github: "https://github.com/Remi-dee/Shop-zone",
     demo: "https://shop-zone-six.vercel.app/",
   },
