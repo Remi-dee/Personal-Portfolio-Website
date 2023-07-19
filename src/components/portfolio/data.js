@@ -6,7 +6,7 @@ import IMG5 from "../../Asset/Techreads.gif";
 
 const data = [
   {
-    id: 0,
+    id: 1,
     category: "Solo Project",
     image: IMG1,
     title:
@@ -16,7 +16,7 @@ const data = [
   },
 
   {
-    id: 1,
+    id: 2,
     category: "Solo Project",
     image: IMG2,
     title:
@@ -26,7 +26,7 @@ const data = [
   },
 
   {
-    id: 2,
+    id: 3,
     category: "Solo Project",
     image: IMG3,
     title: "My Personal Portfolio Website",
@@ -35,7 +35,7 @@ const data = [
   },
 
   {
-    id: 3,
+    id: 4,
     category: "Open Source & Team Projects",
     image: IMG4,
     title:
