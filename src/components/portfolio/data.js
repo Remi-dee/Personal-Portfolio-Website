@@ -30,7 +30,7 @@ const data = [
     image: IMG2,
     title: "My Personal Portfolio Website",
     github: "https://github.com/Remi-dee/Personal-Portfolio-Website",
-    demo: "https://shop-zone-six.vercel.app/",
+    demo: "https://remidaniel.vercel.app/",
   },
 
   {
