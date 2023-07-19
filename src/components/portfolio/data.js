@@ -1,12 +1,13 @@
 import IMG1 from "../../Asset/drag.gif";
 import IMG2 from "../../Asset/shopzone.gif";
 import IMG3 from "../../Asset/portfolio.gif";
-import IMG3 from "../../Asset/portfolio.gif";
+import IMG4 from "../../Asset/HTML Screen-8.png";
+
 import IMG5 from "../../Asset/Techreads.gif";
 
 const data = [
   {
-    id: 1,
+    id: 0,
     category: "Solo Project",
     image: IMG1,
     title:
@@ -16,7 +17,7 @@ const data = [
   },
 
   {
-    id: 2,
+    id: 1,
     category: "Solo Project",
     image: IMG2,
     title:
@@ -26,7 +27,7 @@ const data = [
   },
 
   {
-    id: 3,
+    id: 2,
     category: "Solo Project",
     image: IMG3,
     title: "My Personal Portfolio Website",
@@ -35,7 +36,7 @@ const data = [
   },
 
   {
-    id: 4,
+    id: 3,
     category: "Open Source & Team Projects",
     image: IMG4,
     title:
@@ -45,7 +46,7 @@ const data = [
   },
 
   {
-    id: 5,
+    id: 4,
     category: "Open Source & Team Projects",
     image: IMG5,
     title:
