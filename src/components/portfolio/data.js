@@ -1,6 +1,6 @@
 import IMG1 from "../../Asset/drag.gif";
 import IMG2 from "../../Asset/shopzone.gif";
-import IMG3 from "../../Asset/HTML Screen-8.png";
+import IMG4 from "../../Asset/HTML Screen-8.png";
 import IMG4 from "../../Asset/portfolio4.jpg";
 import IMG5 from "../../Asset/Techreads.gif";
 import IMG6 from "../../Asset/portfolio6.jpg";
@@ -36,7 +36,7 @@ const data = [
   {
     id: 3,
     category: "Open Source & Team Projects",
-    image: IMG3,
+    image: IMG4,
     title:
       "P2PCoder App: A platform where users can code and collaborate in real time",
     github: "https://github.com/annonymousauthority/P2PCoder",
