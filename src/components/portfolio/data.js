@@ -26,6 +26,15 @@ const data = [
 
   {
     id: 2,
+    category: "Solo Project",
+    image: IMG2,
+    title: "Shopzone: An ecommerces app that behaves like Amazon where users can get product and succesfully checkout",
+    github: "https://github.com/Remi-dee/Shop-zone",
+    demo: "https://shop-zone-six.vercel.app/",
+  },
+
+  {
+    id: 2,
     category: "Open Source & Team Projects",
     image: IMG3,
     title:
