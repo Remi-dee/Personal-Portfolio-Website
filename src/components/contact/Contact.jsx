@@ -33,7 +33,7 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>oluwaremidaniel36@gmail.com</h5>
+            <h5>remidanielaluko@gmail.com</h5>
             <a href={`mailto:${import.meta.env.VITE_GMAIL}`} target="_blank">
               Send a Message
             </a>
