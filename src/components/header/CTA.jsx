@@ -1,12 +1,12 @@
 import React from "react";
-import CV from "../../Asset/resume.pdf";
+import RESUME from "../../Asset/resume.pdf";
 
 const CTA = () => {
   return (
     <div className="cta">
       <a
         href={
-          import.meta.env.VITE_RESUME
+          RESUME
         }
         target="_blank"
         download
