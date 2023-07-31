@@ -4,7 +4,7 @@ import RESUME from "../../Asset/resume.pdf";
 const CTA = () => {
   return (
     <div className="cta">
-      <a href={RESUME} target="_blank" download className="btn">
+      <a href="https://drive.google.com/file/d/1Q5qdPNH5MmL78JsWUK2ueuicInCkCRZT/view?usp=sharing" target="_blank" download className="btn">
         Resume
       </a>
       <a href="#portfolio" className="btn btn-primary">
