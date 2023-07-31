@@ -39,8 +39,21 @@ const about = () => {
             </article>
           </div>
           <p className="about_pitch">
-          I am a sick ass frontend developer, I specialize in crafting innovative solutions that enhance user engagement and drive business success. With expertise in React and the MERN stack, I am passionate about creating intuitive user experiences and interactive web applications that solve complex problems. I'm committed to delivering exceptional results that exceed expectations. Aside from being a frontend developer, I'm passionate about personal growth and believe in the power of perseverance and consistency to achieve success. I set specific goals, prioritize them, and work diligently to accomplish them. When I'm not coding, I enjoy creating content for my fashion blog, where I help people improve their personal style. I also love staying active through weight lifting and practicing yoga, as I believe physical fitness is essential for maintaining a healthy body and mind. Most importantly, I value spending quality time with my loved ones.
-
+            I am a sick ass frontend developer, I specialize in crafting
+            innovative solutions that enhance user engagement and drive business
+            success. With expertise in React and the MERN stack, I am passionate
+            about creating intuitive user experiences and interactive web
+            applications that solve complex problems. I'm committed to
+            delivering exceptional results that exceed expectations. Aside from
+            being a frontend developer, I'm passionate about personal growth and
+            believe in the power of perseverance and consistency to achieve
+            success. I set specific goals, prioritize them, and work diligently
+            to accomplish them. When I'm not coding, I enjoy creating content
+            for my fashion blog, where I help people improve their personal
+            style. I also love staying active through weight lifting and
+            practicing yoga, as I believe physical fitness is essential for
+            maintaining a healthy body and mind. Most importantly, I value
+            spending quality time with my loved ones.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
