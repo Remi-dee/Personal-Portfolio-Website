@@ -39,7 +39,7 @@ const about = () => {
             </article>
           </div>
           <p className="about_pitch">
-            I am a sick ass frontend developer, I specialize in crafting
+            I am a an impressive frontend developer, I specialize in crafting
             innovative solutions that enhance user engagement and drive business
             success. With expertise in React and the MERN stack, I am passionate
             about creating intuitive user experiences and interactive web
