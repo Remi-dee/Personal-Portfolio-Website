@@ -10,21 +10,21 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
 const App = () => {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("show");
-      } else {
-        entry.target.classList.remove("show");
-      }
-    });
+  // const observer = new IntersectionObserver((entries) => {
+  //   entries.forEach((entry) => {
+  //     if (entry.isIntersecting) {
+  //       entry.target.classList.add("show");
+  //     } else {
+  //       entry.target.classList.remove("show");
+  //     }
+  //   });
 
 
 
-  });
+  // });
 
-  const hiddenElements = document.querySelectorAll(".hidden")
-  hiddenElements.forEach((e1) => observer.observe(e1))
+  // const hiddenElements = document.querySelectorAll(".hidden")
+  // hiddenElements.forEach((e1) => observer.observe(e1))
 
   return (
     <>
