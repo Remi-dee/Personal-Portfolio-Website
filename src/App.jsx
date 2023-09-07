@@ -8,6 +8,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import { AnimatePresence, LazyMotion } from "framer-motion";
 
 const App = () => {
   // const observer = new IntersectionObserver((entries) => {
@@ -19,8 +20,6 @@ const App = () => {
   //     }
   //   });
 
-
-
   // });
 
   // const hiddenElements = document.querySelectorAll(".hidden")
@@ -28,15 +27,25 @@ const App = () => {
 
   return (
     <>
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      {/*<Services />*/}
-      <Portfolio />
-      {/*<Testimonials />*/}
-      <Contact />
-      <Footer />
+      <AnimatePresence>
+        <LazyMotion.div
+        initial={{opacity: 0, y: 15}}
+        animate={{opacity: 0, y: 15}}
+        exist={{opacity: 0, y: 15}}
+        transition={{delay: 0.25}}
+
+        >
+          <Header />
+          <Nav />
+          <About />
+          <Experience />
+          {/*<Services />*/}
+          <Portfolio />
+          {/*<Testimonials />*/}
+          <Contact />
+          <Footer />
+        </LazyMotion.div>
+      </AnimatePresence>
     </>
   );
 };
