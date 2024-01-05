@@ -1,0 +1,5 @@
+
+  .card {
+    max-width: 1536px;
+    width: 100%; /* Make sure the card takes full width */
+  }

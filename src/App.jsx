@@ -9,26 +9,27 @@ import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import { AnimatePresence, motion } from "framer-motion";
+import "./App.css";
 
 const App = () => {
   return (
-    <>
-      <AnimatePresence>
-        <motion.div
-          
-        >
-          <Header />
-          <Nav />
-          <About />
-          <Experience />
-          {/*<Services />*/}
-          <Portfolio />
-          {/*<Testimonials />*/}
-          <Contact />
-          <Footer />
-        </motion.div>
-      </AnimatePresence>
-    </>
+    <main className="container">
+      <div className="card">
+        <AnimatePresence>
+          <motion.div>
+            <Header />
+            <Nav />
+            <About />
+            <Experience />
+            {/*<Services />*/}
+            <Portfolio />
+            {/*<Testimonials />*/}
+            <Contact />
+            <Footer />
+          </motion.div>
+        </AnimatePresence>
+      </div>
+    </main>
   );
 };
 
