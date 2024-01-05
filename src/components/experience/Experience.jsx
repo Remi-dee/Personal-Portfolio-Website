@@ -130,40 +130,40 @@ const experience = () => {
               <article className="experience_details">
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
-                  <h4>FASHION CONSULTANT</h4>
-                  <small className="text-light">Experienced</small>
+                  <h4>Proactiveness</h4>
+                  <small className="text-light">Expert</small>
                 </div>
               </article>
 
               <article className="experience_details">
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
-                  <h4> FASHION MODEL </h4>
-                  <small className="text-light">Experienced</small>
+                  <h4> Natural Leader </h4>
+                  <small className="text-light">Expert</small>
                 </div>
               </article>
 
               <article className="experience_details">
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
-                  <h4>PHOTOGRAPHY</h4>
-                  <small className="text-light">Experienced</small>
+                  <h4>Strong Problem Solving Skills</h4>
+                  <small className="text-light">Expert</small>
                 </div>
               </article>
 
               <article className="experience_details">
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
-                  <h4>CONTENT CREATION</h4>
-                  <small className="text-light">Experienced</small>
+                  <h4>Communication</h4>
+                  <small className="text-light">Expert</small>
                 </div>
               </article>
 
               <article className="experience_details">
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
-                  <h4>VIDEO EDITING</h4>
-                  <small className="text-light">Experienced</small>
+                  <h4>Content Creation</h4>
+                  <small className="text-light">Expert</small>
                 </div>
               </article>
 
