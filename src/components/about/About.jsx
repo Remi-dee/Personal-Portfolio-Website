@@ -26,7 +26,7 @@ const about = () => {
             <article className="about__card">
               <FaAward className="about-icon" />
               <h5>Experience</h5>
-              <small>2 Years</small>
+              <small>3+ Years</small>
             </article>
 
             {/* <article className='about__card'>
@@ -42,7 +42,7 @@ const about = () => {
             </article>
           </div>
           <p className="about_pitch">
-            I am an impressive frontend developer, I specialize in crafting
+            I am an impressive fullstack developer, I specialize in crafting
             innovative solutions that enhance user engagement and drive business
             success. With expertise in React and the MERN stack, I am passionate
             about creating intuitive user experiences and interactive web
@@ -53,7 +53,7 @@ const about = () => {
             success. I set specific goals, prioritize them, and work diligently
             to accomplish them. When I'm not coding, I enjoy creating content
             for my fashion blog, where I help people in my community improve
-            their personal style. I also love staying active through weight
+            their personal style as a fashion consultant. I also love staying active through weight
             lifting and practicing yoga, as I believe physical fitness is
             essential for maintaining a healthy body and mind. Most importantly,
             I value spending quality time with my loved ones.
