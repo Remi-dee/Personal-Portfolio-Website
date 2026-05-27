@@ -1,201 +1,68 @@
 import React from "react";
-import "./experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
 
-const experience = () => {
+const groups = [
+  {
+    label: "Frontend",
+    techs: ["Next.js 15", "React 19", "TypeScript", "React Native", "Expo", "Angular", "Tailwind CSS", "TanStack Query"],
+  },
+  {
+    label: "Backend",
+    techs: ["NestJS", "Node.js", "Express", "FastAPI", "Pydantic AI", "Prisma", "PostgreSQL", "Redis"],
+  },
+  {
+    label: "AI / ML",
+    techs: ["OpenAI API", "Pydantic AI", "LLM Pipelines", "Streaming SSE", "Violation Detection"],
+  },
+  {
+    label: "Infrastructure",
+    techs: ["GCP Cloud Run", "Cloud SQL", "Pub/Sub", "Secret Manager", "Terraform", "Docker", "Cloud Build"],
+  },
+  {
+    label: "Security",
+    techs: ["JWT / OAuth", "SSRF Protection", "IAM Hardening", "RBAC", "OWASP"],
+  },
+  {
+    label: "Tools",
+    techs: ["Git", "Sentry", "Firebase", "MongoDB", "Supabase", "Redux Toolkit", "WebSockets", "WebRTC"],
+  },
+];
+
+const TechStack = () => {
   return (
-    <div className="experiences__container">
-      <section id="experience">
-        <h5>What i use</h5>
-        <h2>Tech Stack</h2>
+    <section id="skills" className="py-24 px-6">
+      <div className="max-w-5xl mx-auto">
+        <p className="text-indigo-400 text-sm font-medium tracking-widest uppercase mb-2">
+          What I work with
+        </p>
+        <h2 className="text-3xl md:text-4xl font-bold text-white mb-12">
+          Tech Stack
+        </h2>
 
-        <div className="container experience__container">
-          <div className="experience__frontend">
-            <h3>Frontend Development</h3>
-            <div className="experience__content">
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>REACT</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4> NEXT JS </h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>ANGULAR</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>JAVASCRIPT</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>TAILWIND CSS</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>VANILLA CSS</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>BOOTSTRAP</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>SASS</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {groups.map(({ label, techs }) => (
+            <div
+              key={label}
+              className="bg-[#111118] border border-white/5 rounded-xl p-5"
+            >
+              <h3 className="text-sm font-semibold text-slate-300 mb-4 uppercase tracking-wider">
+                {label}
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {techs.map((tech) => (
+                  <span
+                    key={tech}
+                    className="text-xs px-2.5 py-1 rounded-md bg-[#1a1a24] border border-white/5 text-slate-400 hover:border-indigo-500/30 hover:text-indigo-300 transition-colors"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </div>
-          </div>
-
-          <div className="other__experiences">
-            <h3>Backend </h3>
-            <div className="experience__content">
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>NODE JS</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>EXPRESS JS</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>NEST JS</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>MONGODB</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>FIREBASE</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>NEXT AUTH</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-            </div>
-          </div>
+          ))}
         </div>
-      </section>
-
-      {/******************************Other Experiences******************************* */}
-      <section id="experience">
-        <h5>What Else </h5>
-        <h2>Can i do</h2>
-
-        <div className="container experience__container experience2__container">
-          <div className="experience__frontend">
-            <h3>Other Skills</h3>
-            <div className="experience__content experience2__content">
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>Proactiveness</h4>
-                  <small className="text-light">Expert</small>
-                </div>
-              </article>
-
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4> Natural Leader </h4>
-                  <small className="text-light">Expert</small>
-                </div>
-              </article>
-
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>Strong Problem Solving Skills</h4>
-                  <small className="text-light">Expert</small>
-                </div>
-              </article>
-
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>Communication</h4>
-                  <small className="text-light">Expert</small>
-                </div>
-              </article>
-
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>Content Creation</h4>
-                  <small className="text-light">Expert</small>
-                </div>
-              </article>
-
-              <article className="experience_details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>Fashion Consultancy</h4>
-                  <small className="text-light">Expert</small>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 
-export default experience;
+export default TechStack;

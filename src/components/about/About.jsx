@@ -1,70 +1,82 @@
 import React from "react";
-import "./about.css";
 import ME from "../../Asset/me_about.jpg";
-import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
-import { BsFolderCheck } from "react-icons/bs";
-import useIntersectionObserver from "../../../useIntersectionObserver";
 
-const about = () => {
-  const [targetRef, isVisible] = useIntersectionObserver();
+const stats = [
+  { value: "5+", label: "Years Experience" },
+  { value: "15+", label: "Projects Shipped" },
+  { value: "6+", label: "Companies" },
+];
 
+const About = () => {
   return (
-    <section id="about">
-      <h5>Get to Know</h5>
-      <h2>About Me</h2>
+    <section id="about" className="py-24 px-6">
+      <div className="max-w-5xl mx-auto">
+        <p className="text-indigo-400 text-sm font-medium tracking-widest uppercase mb-2">
+          Get to know
+        </p>
+        <h2 className="text-3xl md:text-4xl font-bold text-white mb-12">
+          About Me
+        </h2>
 
-      <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+        <div className="grid md:grid-cols-2 gap-12 items-start">
+          {/* Photo */}
+          <div className="relative">
+            <div className="absolute -inset-1 rounded-2xl bg-gradient-to-br from-indigo-500/20 to-violet-500/20 blur-lg" />
+            <img
+              src={ME}
+              alt="Remi Daniel Aluko"
+              className="relative w-full max-w-sm mx-auto rounded-2xl object-cover border border-white/10"
+            />
           </div>
-        </div>
 
-        <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about-icon" />
-              <h5>Experience</h5>
-              <small>3+ Years</small>
-            </article>
+          {/* Content */}
+          <div>
+            {/* Stats */}
+            <div className="grid grid-cols-3 gap-4 mb-8">
+              {stats.map(({ value, label }) => (
+                <div
+                  key={label}
+                  className="bg-[#111118] border border-white/5 rounded-xl p-4 text-center"
+                >
+                  <p className="text-2xl font-bold text-indigo-400 mb-1">
+                    {value}
+                  </p>
+                  <p className="text-xs text-slate-500 leading-tight">{label}</p>
+                </div>
+              ))}
+            </div>
 
-            {/* <article className='about__card'>
-              <FiUsers className='about-icon'/>
-              <h5>Clents</h5>
-              <small>3 clients</small>
-            </article> */}
+            <p className="text-slate-400 leading-relaxed mb-6">
+              I'm a product-focused software engineer with over five years of
+              experience building high-quality, scalable applications across
+              fintech, e-commerce, fashion tech, and enterprise AI SaaS.
+            </p>
+            <p className="text-slate-400 leading-relaxed mb-6">
+              At{" "}
+              <span className="text-slate-200 font-medium">InPolicy</span>, I
+              work across three production services — a Next.js 15 frontend, a
+              NestJS API, and a Python/FastAPI AI service — shipping everything
+              from security-hardened auth systems to LLM-powered violation
+              detection pipelines running on GCP.
+            </p>
+            <p className="text-slate-400 leading-relaxed mb-8">
+              Before that, I led mobile development at NutriLab (cutting AI scan
+              latency 90%), built open banking integrations at Petrong, and
+              directed full-stack development for a recruitment platform rated
+              4.8/5 at World Wide Techies.
+            </p>
 
-            <article className="about__card">
-              <BsFolderCheck className="about-icon" />
-              <h5>Projects</h5>
-              <small>10 Completed</small>
-            </article>
+            <a
+              href="#contact"
+              className="inline-block px-5 py-2.5 bg-indigo-500 text-white text-sm font-medium rounded-lg hover:bg-indigo-600 transition-colors"
+            >
+              Let's Talk
+            </a>
           </div>
-          <p className="about_pitch">
-            I am an impressive fullstack developer, I specialize in crafting
-            innovative solutions that enhance user engagement and drive business
-            success. With expertise in React and the MERN stack, I am passionate
-            about creating intuitive user experiences and interactive web
-            applications that solve complex problems. I'm committed to
-            delivering exceptional results that exceed expectations. Aside from
-            being a frontend developer, I'm passionate about personal growth and
-            believe in the power of perseverance and consistency to achieve
-            success. I set specific goals, prioritize them, and work diligently
-            to accomplish them. When I'm not coding, I enjoy creating content
-            for my fashion blog, where I help people in my community improve
-            their personal style as a fashion consultant. I also love staying active through weight
-            lifting and practicing yoga, as I believe physical fitness is
-            essential for maintaining a healthy body and mind. Most importantly,
-            I value spending quality time with my loved ones.
-          </p>
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>
         </div>
       </div>
     </section>
   );
 };
 
-export default about;
+export default About;
