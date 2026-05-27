@@ -34,7 +34,7 @@ const jobs = [
   {
     company: "ExpatSwap",
     role: "Full-Stack Developer",
-    period: "Sep 2024 – Present",
+    period: "Sep 2024 – Sep 2025",
     type: "Full-time",
     description: "Expat community and services platform.",
     bullets: [

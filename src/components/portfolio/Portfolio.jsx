@@ -22,7 +22,7 @@ const ProjectCard = ({ category, title, description, stack, github, demo, images
             key={i}
             src={src}
             alt={`${title} screenshot ${i + 1}`}
-            className={`absolute inset-0 w-full h-full object-cover object-top transition-opacity duration-700 group-hover:scale-105 transition-transform duration-500 ${
+            className={`absolute inset-0 w-full h-full object-cover object-top transition-all duration-500 group-hover:scale-105 ${
               i === current ? "opacity-80" : "opacity-0"
             }`}
           />
@@ -113,7 +113,7 @@ const Portfolio = () => {
     <section id="portfolio" className="py-24 px-6">
       <div className="max-w-5xl mx-auto">
         <p className="text-indigo-400 text-sm font-medium tracking-widest uppercase mb-2">
-          What I've built
+          What I've recently built
         </p>
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-12">
           Projects

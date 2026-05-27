@@ -1,6 +1,3 @@
-import IMG1 from "../../Asset/drag.gif";
-import IMG3 from "../../Asset/Techreads.gif";
-import IMG4 from "../../Asset/shopzone.gif";
 import INPOLICY_1 from "../../Asset/inpolicy-1.png";
 import INPOLICY_2 from "../../Asset/inpolicy-2.png";
 import INPOLICY_3 from "../../Asset/inpolicy-3.png";
@@ -29,7 +26,7 @@ const data = [
     description:
       "Multi-tenant enterprise SaaS with AI-powered violation detection, streaming pipelines, and security-hardened auth. Built across Next.js 15, NestJS, and Python/FastAPI on GCP.",
     stack: ["Next.js 15", "NestJS", "Python", "FastAPI", "GCP", "Terraform"],
-    github: "https://github.com/Remi-dee",
+    github: "",
     demo: "https://inpolicy.ai",
     images: [INPOLICY_1, INPOLICY_2, INPOLICY_3, INPOLICY_4],
   },
@@ -46,28 +43,6 @@ const data = [
   },
   {
     id: 2,
-    category: "Fintech",
-    title: "FXKARASHELL — Blockchain P2P Forex Exchange",
-    description:
-      "P2P forex trading platform with open banking integration (Truelayer, Mono), secure escrow wallet, and real-time trade APIs.",
-    stack: ["React", "Next.js", "NestJS", "MongoDB", "Truelayer", "Mono API"],
-    github: "https://github.com/Remi-dee",
-    demo: "",
-    images: [IMG4],
-  },
-  {
-    id: 3,
-    category: "Recruitment Platform",
-    title: "Talentyard — Recruitment & Talent Management",
-    description:
-      "Full-stack recruitment platform with live support and onboarding flows. Achieved 4.8/5 user rating.",
-    stack: ["React", "Next.js", "Firebase", "MongoDB", "WebSockets"],
-    github: "https://github.com/Remi-dee",
-    demo: "",
-    images: [IMG3],
-  },
-  {
-    id: 4,
     category: "Real-time App",
     title: "Anonymous Chat — Real-time WebRTC Chat Platform",
     description:
@@ -79,17 +54,6 @@ const data = [
       ANON_1, ANON_2, ANON_3, ANON_4, ANON_5, ANON_6, ANON_7,
       ANON_8, ANON_9, ANON_10, ANON_11, ANON_12, ANON_13, ANON_14,
     ],
-  },
-  {
-    id: 5,
-    category: "Productivity",
-    title: "Trello-Lite — Task Management App",
-    description:
-      "Lightweight Trello clone with drag-and-drop task organisation and persistent board state.",
-    stack: ["React", "JavaScript", "CSS"],
-    github: "https://github.com/Remi-dee/trellolite",
-    demo: "https://trello-lite-remi.vercel.app/",
-    images: [IMG1],
   },
 ];
 
