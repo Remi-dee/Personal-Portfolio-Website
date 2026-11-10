@@ -15,7 +15,7 @@ const contactOptions = [
     icon: <BsLinkedin size={18} />,
     label: "LinkedIn",
     value: "Remi Daniel Aluko",
-    href: "https://www.linkedin.com/in/remidaniel247",
+    href: "https://www.linkedin.com/in/remi-daniel247/",
     cta: "Connect",
   },
 ];
