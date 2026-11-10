@@ -1,22 +1,22 @@
-import INPOLICY_1 from "../../Asset/inpolicy-1.png";
-import INPOLICY_2 from "../../Asset/inpolicy-2.png";
-import INPOLICY_3 from "../../Asset/inpolicy-3.png";
-import INPOLICY_4 from "../../Asset/inpolicy-4.png";
-import NUTRILAB_1 from "../../Asset/nutrilab-1.png";
-import ANON_1 from "../../Asset/anon-1.png";
-import ANON_2 from "../../Asset/anon-2.png";
-import ANON_3 from "../../Asset/anon-3.png";
-import ANON_4 from "../../Asset/anon-4.png";
-import ANON_5 from "../../Asset/anon-5.png";
-import ANON_6 from "../../Asset/anon-6.png";
-import ANON_7 from "../../Asset/anon-7.png";
-import ANON_8 from "../../Asset/anon-8.png";
-import ANON_9 from "../../Asset/anon-9.png";
-import ANON_10 from "../../Asset/anon-10.png";
-import ANON_11 from "../../Asset/anon-11.png";
-import ANON_12 from "../../Asset/anon-12.png";
-import ANON_13 from "../../Asset/anon-13.png";
-import ANON_14 from "../../Asset/anon-14.png";
+import INPOLICY_1 from "../../Asset/inpolicy-1.webp";
+import INPOLICY_2 from "../../Asset/inpolicy-2.webp";
+import INPOLICY_3 from "../../Asset/inpolicy-3.webp";
+import INPOLICY_4 from "../../Asset/inpolicy-4.webp";
+import NUTRILAB_1 from "../../Asset/nutrilab-1.webp";
+import ANON_1 from "../../Asset/anon-1.webp";
+import ANON_2 from "../../Asset/anon-2.webp";
+import ANON_3 from "../../Asset/anon-3.webp";
+import ANON_4 from "../../Asset/anon-4.webp";
+import ANON_5 from "../../Asset/anon-5.webp";
+import ANON_6 from "../../Asset/anon-6.webp";
+import ANON_7 from "../../Asset/anon-7.webp";
+import ANON_8 from "../../Asset/anon-8.webp";
+import ANON_9 from "../../Asset/anon-9.webp";
+import ANON_10 from "../../Asset/anon-10.webp";
+import ANON_11 from "../../Asset/anon-11.webp";
+import ANON_12 from "../../Asset/anon-12.webp";
+import ANON_13 from "../../Asset/anon-13.webp";
+import ANON_14 from "../../Asset/anon-14.webp";
 
 const data = [
   {
@@ -24,7 +24,7 @@ const data = [
     category: "Enterprise SaaS",
     title: "InPolicy — AI Policy Management Platform",
     description:
-      "Multi-tenant enterprise SaaS with AI-powered violation detection, streaming pipelines, and security-hardened auth. Built across Next.js 15, NestJS, and Python/FastAPI on GCP.",
+      "Multi-tenant AI compliance platform that checks communications against company policy before they're sent. I work across the stack and own security and enterprise readiness: tenant isolation, least-privilege cloud infrastructure, and SOC 2 readiness.",
     stack: ["Next.js 15", "NestJS", "Python", "FastAPI", "GCP", "Terraform"],
     github: "",
     demo: "https://inpolicy.ai",
