@@ -1,7 +1,7 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { MdOutlineEmail } from "react-icons/md";
-import { BsLinkedin, BsWhatsapp } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 
 const contactOptions = [
   {
@@ -15,31 +15,32 @@ const contactOptions = [
     icon: <BsLinkedin size={18} />,
     label: "LinkedIn",
     value: "Remi Daniel Aluko",
-    href: "https://linkedin.com/in/remi-daniel-aluko",
+    href: "https://www.linkedin.com/in/remidaniel247",
     cta: "Connect",
-  },
-  {
-    icon: <BsWhatsapp size={18} />,
-    label: "WhatsApp",
-    value: "+234 903 539 1575",
-    href: "https://wa.me/2349035391575",
-    cta: "Message",
   },
 ];
 
 const Contact = () => {
   const form = useRef();
+  // idle | sending | sent | error
+  const [status, setStatus] = useState("idle");
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
-    emailjs.sendForm(
-      "service_jpnhu97",
-      "template_km520xf",
-      form.current,
-      "Mmh0fFVAyyrywVZFc"
-    );
-    alert("Message sent!");
-    e.target.reset();
+    const formEl = e.currentTarget;
+    setStatus("sending");
+    try {
+      await emailjs.sendForm(
+        "service_jpnhu97",
+        "template_km520xf",
+        form.current,
+        "Mmh0fFVAyyrywVZFc"
+      );
+      setStatus("sent");
+      formEl.reset();
+    } catch {
+      setStatus("error");
+    }
   };
 
   return (
@@ -108,10 +109,24 @@ const Contact = () => {
             />
             <button
               type="submit"
-              className="w-full py-3 bg-indigo-500 text-white text-sm font-medium rounded-xl hover:bg-indigo-600 transition-colors"
+              disabled={status === "sending"}
+              className="w-full py-3 bg-indigo-500 text-white text-sm font-medium rounded-xl hover:bg-indigo-600 transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
             >
-              Send Message
+              {status === "sending" ? "Sending…" : "Send Message"}
             </button>
+            <p role="status" aria-live="polite" className="text-sm min-h-[1.25rem]">
+              {status === "sent" && (
+                <span className="text-emerald-400">
+                  Thanks! Your message is on its way. I'll get back to you soon.
+                </span>
+              )}
+              {status === "error" && (
+                <span className="text-rose-400">
+                  Something went wrong sending that. Please email me directly at
+                  remidanielaluko@gmail.com.
+                </span>
+              )}
+            </p>
           </form>
         </div>
       </div>

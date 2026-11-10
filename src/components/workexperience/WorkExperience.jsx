@@ -3,16 +3,19 @@ import React, { useState } from "react";
 const jobs = [
   {
     company: "InPolicy",
-    role: "Full-Stack Software Engineer",
-    period: "Oct 2025 – Present",
+    role: "Software Engineer",
+    period: "Sep 2025 – Present",
     type: "Full-time",
     description:
-      "Enterprise multi-tenant AI-powered policy management platform. Working across three production services on GCP.",
+      "AI-powered compliance platform that checks emails, documents and messages against company policy before they're sent. I work across the full product and own security, privacy and enterprise readiness.",
     bullets: [
-      "Resolved 14 security audit findings across 5 sprint cycles — SSRF/DNS-rebinding, JWT type-claim hardening, Redis-backed permission revalidation (≤30s), and IAM least-privilege enforcement.",
-      "Hardened GCP Cloud Run with Terraform: dedicated service accounts with scoped IAM bindings, zero-downtime rolling deploys.",
-      "Built streaming violation detection pipeline in Python with tenant isolation, SSE keepalive, and overlap-window search.",
-      "Wired Sentry observability across all three services with PII scrubbing.",
+      "Resolved 14+ security audit findings: SSRF protection, JWT and SSO hardening, real-time permission revalidation, and OAuth account-linking defenses.",
+      "Lead technical owner for SOC 2 readiness: turning controls into engineering work and driving remediation.",
+      "Strengthening multi-tenant isolation at the database layer with PostgreSQL Row-Level Security.",
+      "Moved Cloud Run services onto dedicated least-privilege service accounts and built CI-driven Terraform deploys with environment-locked credentials.",
+      "Built core parts of the streaming AI violation-detection pipeline: tenant isolation, SSE keepalive, overlap-window search.",
+      "PII scrubbing in error tracking across all three services, so sensitive data stays out of logs and traces.",
+      "Contributing to AI evaluation work on detection quality and label accuracy.",
     ],
     stack: ["Next.js 15", "NestJS", "TypeScript", "Python", "FastAPI", "PostgreSQL", "Redis", "GCP", "Terraform"],
   },
@@ -20,7 +23,7 @@ const jobs = [
     company: "NutriLab Singapore",
     role: "Lead Developer — AI Mobile App",
     period: "Jun 2025 – Oct 2025",
-    type: "Contract",
+    type: "Part-time",
     description:
       "AI-driven nutrition and food analysis app. Led architecture and delivery from unstructured codebase to production-ready.",
     bullets: [

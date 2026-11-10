@@ -1,5 +1,5 @@
 import React from "react";
-import ME from "../../Asset/me_about.jpg";
+import ME from "../../Asset/me_about.webp";
 
 const stats = [
   { value: "5+", label: "Years Experience" },
@@ -47,17 +47,16 @@ const About = () => {
             </div>
 
             <p className="text-slate-400 leading-relaxed mb-6">
-              I'm a product-focused software engineer with over five years of
-              experience building high-quality, scalable applications across
-              fintech, e-commerce, fashion tech, and enterprise AI SaaS.
+              AI can build almost anything now. What enterprises actually buy
+              is whether they can trust it. That's the part I work on.
             </p>
             <p className="text-slate-400 leading-relaxed mb-6">
               At{" "}
-              <span className="text-slate-200 font-medium">InPolicy</span>, I
-              work across three production services — a Next.js 15 frontend, a
-              NestJS API, and a Python/FastAPI AI service — shipping everything
-              from security-hardened auth systems to LLM-powered violation
-              detection pipelines running on GCP.
+              <span className="text-slate-200 font-medium">InPolicy</span>, an
+              AI-powered compliance platform, I work across the whole product
+              (Next.js, NestJS, and a Python/Pydantic AI service on GCP) and
+              lead our security, privacy and enterprise-readiness work,
+              including technical readiness for SOC 2.
             </p>
             <p className="text-slate-400 leading-relaxed mb-8">
               Before that, I led mobile development at NutriLab (cutting AI scan

@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiArrowDown } from "react-icons/hi";
-import ME from "@Asset/self.jpg";
+import ME from "@Asset/self.webp";
 
 const Hero = () => {
   return (
@@ -19,7 +19,7 @@ const Hero = () => {
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-emerald-500/20 bg-emerald-500/5 mb-6">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
             <span className="text-xs text-emerald-400 font-medium">
-              Available for opportunities
+              Open to interesting conversations
             </span>
           </div>
 
@@ -32,10 +32,10 @@ const Hero = () => {
           </h1>
 
           <p className="text-slate-400 text-base md:text-lg mb-8 max-w-lg leading-relaxed">
-            Full-Stack Software Engineer building enterprise AI SaaS at{" "}
-            <span className="text-slate-200 font-medium">InPolicy</span>.
-            Shipping across Next.js, NestJS, Python, and GCP — from
-            AI pipelines to hardened auth systems.
+            Software engineer building secure, enterprise-ready AI at{" "}
+            <span className="text-slate-200 font-medium">InPolicy</span>. I
+            work across the full stack and own security, privacy and
+            enterprise readiness, including SOC 2.
           </p>
 
           <div className="flex gap-3 flex-wrap mb-10">
@@ -64,7 +64,7 @@ const Hero = () => {
               <FaGithub size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/remi-daniel-aluko"
+              href="https://www.linkedin.com/in/remidaniel247"
               target="_blank"
               rel="noreferrer"
               className="text-slate-500 hover:text-white transition-colors"
